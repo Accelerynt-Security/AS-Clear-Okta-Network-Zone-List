@@ -7,11 +7,9 @@ For any technical questions, please contact info@accelerynt.com
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAccelerynt-Security%2FAS-Clear-Okta-Network-Zone-List%2Fmain%2Fazuredeploy.json)
 [![Deploy to Azure Gov](https://aka.ms/deploytoazuregovbutton)](https://portal.azure.us/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAccelerynt-Security%2FAS-Clear-Okta-Network-Zone-List%2Fmain%2Fazuredeploy.json)       
 
-This playbook is intended to be run on a schedule. It will clear out all but one of the IPs from an Okta Network Zone list (leaving at least one entry is required by API). This will prevent the list from reaching capacity and preventing newer entries from being added.
+This playbook is intended to be run on a schedule. It will clear out all but one of the IPs from an Okta Network Zone list (leaving at least one entry is required by API). This will prevent the list from reaching capacity. This may be desired because lists at capacity inhibit newer entries from being added.
 
 ![NetworkZone_Demo_1](Images/NetworkZone_Demo_1.png)
-
-![NetworkZone_Demo_2](Images/NetworkZone_Demo_2.png)
 
 
 #
