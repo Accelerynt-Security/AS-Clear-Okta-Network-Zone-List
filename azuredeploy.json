@@ -72,7 +72,6 @@
                 "type": "SystemAssigned"
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Web/connections', variables('azuresentinel'))]",
                 "[resourceId('Microsoft.Web/connections', variables('keyvault'))]"
             ],
             "properties": {
